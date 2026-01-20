@@ -39,9 +39,9 @@ const color = computed(() => {
       return 'border-black bg-black hover:bg-black/80 text-white'
     case 'gray':
       if (props.variant === 'outlined') {
-        return 'border-gray text-gray hover:bg-gray hover:text-white'
+        return 'border-gray-300 text-gray-500 hover:text-gray-800 hover:bg-gray-300'
       }
-      return 'border-gray-300 bg-gray-300 hover:bg-gray-400 text-white'
+      return 'border-gray-300 bg-gray-300 hover:bg-gray-400 text-gray-800 hover:text-white'
     default:
       return ''
   }

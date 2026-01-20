@@ -19,7 +19,7 @@
         <NuxtLink to="/server">
           <ButtonsHeader label="List Item" />
         </NuxtLink>
-        <NuxtLink to="/account/{id}/transactions">
+        <NuxtLink to="/account/transaction-history">
           <ButtonsHeader label="Pesanan" />
         </NuxtLink>       
         <div class="pl-4 flex items-center gap-4 border-l border-gray-200">

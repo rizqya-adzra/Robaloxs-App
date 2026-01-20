@@ -20,6 +20,7 @@ Join us to gain more and more discounts.
 - v1.0.10 at 14th Jan 2026
 - v1.0.11 at 15th Jan 2026
 - v1.0.12 at 16th Jan 2026
+- v1.0.13 at 20th Jan 2026
 
 ## Features
 - White minimalist style

@@ -65,3 +65,7 @@
 - added leaderboard page
 - fixed checkout page
 - added variant 3 "summary" in CardsCheckout at ./app/components/cards/Checkout.vue
+
+### V1.0.13
+- added transaction-history page at ./app/pages/account/transaction-history.vue
+- fixed ButtonsPrimary and Header components
