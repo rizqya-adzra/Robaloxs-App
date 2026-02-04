@@ -4,6 +4,7 @@
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
+    <TooltipsToastContainer />
   </div>
 </template>
 

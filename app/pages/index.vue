@@ -17,15 +17,30 @@
           metode disini! <br class="hidden lg:block">
           <span class="text-primary block mt-2 lg:mt-0">Top Up Sekarang</span>
         </p>
-
         <div class="flex flex-col gap-3 w-full lg:w-auto items-center lg:items-start">
           <div class="flex flex-wrap justify-center lg:justify-start gap-2 w-full">
-            <ButtonsSecondary class="flex-1 lg:flex-none min-w-[120px]">Gamepass</ButtonsSecondary>
-            <ButtonsSecondary class="flex-1 lg:flex-none min-w-[120px]">Via Login</ButtonsSecondary>
+            <NuxtLink to="/robux/gamepass">
+              <ButtonsSecondary class="flex-1 lg:flex-none min-w-[120px]">
+                Gamepass
+              </ButtonsSecondary>
+            </NuxtLink>
+            <NuxtLink to="/robux/via-login">
+              <ButtonsSecondary class="flex-1 lg:flex-none min-w-[120px]">
+                Via Login
+              </ButtonsSecondary>
+            </NuxtLink>
           </div>
           <div class="flex flex-wrap justify-center lg:justify-start gap-2 w-full whitespace-nowrap">
-            <ButtonsSecondary class="flex-1 lg:flex-none min-w-[120px]">Gift Card</ButtonsSecondary>
-            <ButtonsSecondary variant="gradient" class="flex-1 lg:flex-none min-w-[120px]">Beli Item in-game</ButtonsSecondary>
+            <NuxtLink to="/robux/giftcard">
+              <ButtonsSecondary class="flex-1 lg:flex-none min-w-[120px]">
+                Gift Card
+              </ButtonsSecondary>
+            </NuxtLink>
+            <NuxtLink to="/server">
+              <ButtonsSecondary variant="gradient" class="flex-1 lg:flex-none min-w-[120px]">
+                Beli Item in-game
+              </ButtonsSecondary>
+            </NuxtLink>
           </div>
         </div>
 

@@ -69,3 +69,10 @@
 ### V1.0.13
 - added transaction-history page at ./app/pages/account/transaction-history.vue
 - fixed ButtonsPrimary and Header components
+
+### V1.0.14
+- added authentication.ts to fetch API
+- fixed ButtonsPrimary to have error exceptions
+- fixed InputsDefault to have error exceptions
+- fixed login & register page to have error exceptions
+- added toast to app.vue
